@@ -1,10 +1,18 @@
 
 ## Small U-Net for vehicle detection
+#### Cheng-Hung Yeh
 
-#### Vivek Yadav, PhD
+#### Vivek Yadav, PhD [fork]
+```
+download dataset
+https://github.com/udacity/self-driving-car/tree/master/annotations
+wget http://bit.ly/udacity-annoations-crowdai
+
+```
 
 
 ### Overview
+https://chatbotslife.com/small-u-net-for-vehicle-detection-9eec216f9fd6
 
 In this repository , we will go over using U-net for detecting vehicles in a video stream of images provided by Udacity. U-net is a encoder-decoder type of network for pixel-wise predictions. U-net is unique because in U-net, the receptive fields after convolution are concatenated with the receptive fields in up-convolving process. This additional feature allows network to use original features in addition to features after up-convolution. This results in overall better performance than a network that has access to only features after up-convolution. Post-training, the network was correctly able to identify vehicles in an urban setting, and more interestingly performed better than humans in cases where cars were not correctly annotated.
 
