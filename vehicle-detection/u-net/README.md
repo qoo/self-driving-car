@@ -2,7 +2,7 @@
 ## Small U-Net for vehicle detection
 #### Cheng-Hung Yeh
 
-#### Vivek Yadav, PhD [fork]
+#### Original: Vivek Yadav, PhD [fork]
 ```
 download dataset
 https://github.com/udacity/self-driving-car/tree/master/annotations
